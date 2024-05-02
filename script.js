@@ -18,7 +18,7 @@ function createCard(title,cname,views,monthOld,duration,thumbnail){
     
     <div class="text">
         <h3 class="video_title">${title}</h3>
-        <div class="video_details">${cname}. ${view_str}.${monthOld}</div>
+        <div class="video_details"><span id="channel_name">${cname}</span>. ${view_str}.${monthOld}</div>
     </div>
 </div>`
 document.querySelector(".container").innerHTML = document.querySelector(".container").innerHTML + card;
